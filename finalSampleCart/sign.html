@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="media/Uiconstock-Socialmedia-Amazon.ico">
+    <title>Login</title>
+    <style>
+        .content {
+            width: 351px;
+            height: 300px;
+            border: 1px solid gray;
+            border-radius: 3px;
+            margin: 10px auto;
+            padding-left: 40px;
+        }
+
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: red;
+        }
+
+        input {
+            display: block;
+            width: 296px;
+            margin-top: 10px;
+            border-radius: 5px;
+            height: 26px;
+        }
+
+        input[type=submit] {
+            width: 305px;
+            color: black;
+            background-color: rgb(248, 199, 108);
+            border: none;
+            height: 30px;
+        }
+
+        input[type=submit]:hover {
+            cursor: pointer;
+            opacity: 0.8;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+        }
+
+        .logo {
+            margin-top: 20px;
+            margin-left: 610px;
+        }
+
+        .content p {
+            font-size: 13px;
+            margin-top: 15px;
+            margin-bottom: 20px;
+        }
+
+        .content+p {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        input[type=button] {
+            margin-left: 520px;
+            display: block;
+        }
+
+        input[type=button]:hover {
+            opacity: 0.8;
+            cursor: pointer;
+        }
+
+        .end {
+            width: 100%;
+            height: 80px;
+            background-color: rgb(206, 189, 189);
+            margin-top: 30px;
+            opacity: 0.7;
+            text-align: center;
+            padding-top: 15px;
+        }
+
+        .end a {
+            font-size: 13px;
+            margin-left: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="media/logo2.png" width="130px" height="60px">
+        </div>
+        <form action="index.html" target="_blank" method="get">
+            <div class="content">
+                <h1>Sign-In</h1>
+                <label>Email or mobile phone number</label>
+                <input type="email">
+                <input type="submit" value="Continue">
+                <p>By continuing, you agree to Amazon's <a href="">Conditions of Use</a> and <a href="">Privacy
+                        Notice</a>
+                </p>
+
+                <div><a href="">- Need help?</a></div>
+            </div>
+            <p>------------ New To Amazon? ------------</p>
+            <input type="button" value="Create your Amazon account">
+        </form>
+        <div class="end">
+            <a href="">conditions of Use</a>
+            <a href="">Privacy Notice</a>
+            <a href="">Interest Based Ads</a>
+            <p><a>© 1996-2021, Amazon.com, Inc. or its affiliates</a></p>
+        </div>
+    </div>
+</body>
+
+</html>

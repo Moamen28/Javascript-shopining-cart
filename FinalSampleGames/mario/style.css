@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+body {
+    /* background-image: url("majorbackground.jpg"); */
+    background-color: black;
+   
+}
+.game{
+    width: 100%;
+     height:450px; 
+    border: 1px solid black;
+    margin: auto;
+    margin-top:0px;
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#mario {
+  
+    /* background: linear-gradient(rgba(191, 223, 207, 0.6), rgba(224, 203, 203, 0.6)), url(walk-walk-away.gif) center/cover no-repeat/ ; */
+
+    position:relative;
+    top: 310px;
+    left: 500px;
+}
+
+
+
+.animate{
+    animation: jump .5s linear;
+}
+@keyframes jump{
+    0%{top: 150px;}
+    30%{top: 100px;}
+    70%{top: 100px;}
+    100%{top: 150px;}
+}
+
+#block{
+   
+    background-image: url("block.jpg");
+    width: 40px;
+    height: 60px;
+    position: relative;
+    top: 250px;
+    left: 500px;
+    animation: block 1 s infinite linear;
+}
+@keyframes block{
+    0%{left: 1500px}
+    100%{left: -10px}
+}
+
+p{
+    text-align: center;
+  font-size: 50px; 
+  color: rgb(255, 255, 255);
+}

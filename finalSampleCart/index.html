@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="HTML, CSS, JavaScript , amazon , shopping , sale">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Amazon page</title>
+    <link rel="stylesheet" href="amazon.css">
+    <link rel="icon" type="image/x-icon" href="media/Uiconstock-Socialmedia-Amazon.ico">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header" id="top">
+            <!-- start of header (nav bar) -->
+            <div class="headFirst">
+                <div class="logo">
+                    <a href="amazon.html" target="_blank"><img src="media/Amazon Logo.png" alt="" width="130px"
+                            height="50px"></a>
+                </div>
+                <div class="dev2">
+                    <a href="">
+                        <span id="span1">Deliver to </span><br>
+                        <i class="material-icons" style="font-size:25px;color:white">place</i>
+                        <span id="span2">Egypt</span>
+                    </a>
+                </div>
+                <div class="topnav">
+                    <div class="custom-select">
+                        <select>
+                            <option value="0">All</option>
+                            <option value="1">Audi</option>
+                            <option value="2">BMW</option>
+                            <option value="3">Citroen</option>
+                            <option value="4">Ford</option>
+                            <option value="5">Honda</option>
+                            <option value="6">Jaguar</option>
+                            <option value="7">Land Rover</option>
+                            <option value="8">Mercedes</option>
+                            <option value="9">Mini</option>
+                            <option value="10">Nissan</option>
+                            <option value="11">Toyota</option>
+                            <option value="12">Volvo</option>
+                        </select>
+                    </div>
+                    <div class="search-container">
+                        <form action="/action_page.php">
+                            <input type="text" placeholder="Search.." name="search">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <img src="media/flag amerca.png" width="35px" height="25px">
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">English</a>
+                        <a href="#">Arabic </a>
+                        <a href="#">friench</a>
+                    </div>
+                </div>
+                <div class="dev3">
+                    <a href="sign.html">
+                        <span id="span1">Hello, sign in </span><br>
+                        <span id="span2">Account&List </span>
+                        <i class="fa fa-caret-down" style="font-size:15px;color:white"></i>
+                    </a>
+                </div>
+                <div class="dev4">
+                    <a href="">
+                        <span id="span1">Returns </span><br>
+                        <span id="span2">& Orders </span>
+                    </a>
+                </div>
+                <div class="dev5" onclick="openCard()">
+                    <a href="#down">
+                        <i class="fa fa-shopping-cart" style="font-size:36px; color: white;"></i>
+                        <span id="span3">Card</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="headersec">
+            <div class="menuContainer" onclick="Menu_function()">
+                <div class="menu">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                <br>
+                <span id="headSpan1">ALL</span>
+            </div>
+            <div class="menu_content">
+                <ul class="mune_sub">
+                    <li>
+                        <div class="menu_item">Digital Content & Devices</div>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div>Amazone Music</div>
+                        </a>
+                    </li>
+                    <li><a href="">
+                            <div>Kindle E-readers & Books</div>
+                        </a></li>
+                    <li><a href="">
+                            <div>Appstore for Android</div>
+                        </a></li>
+                    <hr>
+                    <li>
+                        <div class="menu_item">Shop By Departement</div>
+                    </li>
+                    <li><a href="">
+                            <div>Electronics</div>
+                        </a></li>
+                    <li><a href="">
+                            <div>Computer</div>
+                        </a></li>
+                    <li><a href="">
+                            <div>Smart Home</div>
+                        </a></li>
+                    <li><a href="">
+                            <div>Arts & Crafts</div>
+                        </a></li>
+                    <hr>
+                    <li>
+                        <div class="menu_item">Programs & Features</div>
+                    </li>
+                    <li><a href="">
+                            <div>Gift Cards</div>
+                        </a></li>
+                    <li><a href="">
+                            <div>#FoundItOnAmazon</div>
+                        </a></li>
+                    <li><a href="">
+                            <div>Amazone Live</div>
+                        </a></li>
+                    <li><a href="">
+                            <div>International Shopping</div>
+                        </a></li>
+                    <hr>
+                    <li>
+                        <div class="menu_item">Help & Settings</div>
+                    </li>
+                    <li><a href="">
+                            <div>Your Acount</div>
+                        </a></li>
+                    <li><a href="">
+                            <div>English</div>
+                        </a></li>
+                    <li><a href="">
+                            <div>united States</div>
+                        </a></li>
+                    <li><a href="">
+                            <div>Customer Service</div>
+                        </a></li>
+                    <li><a href="">
+                            <div>sign in</div>
+                        </a></li>
+                </ul>
+            </div>
+            <script>
+                function Menu_function() {
+                    document.getElementsByClassName("menu_content")[0].classList.toggle("show");
+                }
+                var i = 1;
+                function img1(ev) {
+                    ev.preventDefault();
+                    var arr = new Array('media/61ASx7NHTWL._SX3000_.jpg', 'media/711Y9Al9RNL._SX3000_.jpg', 'media/61jovjd+f9L._SX3000_.jpg', 'media/61DUO0NqyyL._SX3000_.jpg')
+                    if (i > 3) { i = 0; }
+                    document.querySelector('#imggg').src = arr[i];
+                    i++;
+                }
+                function img2(ev) {
+                    i--;
+                    if (i < 0) { i = 3; }
+                    ev.preventDefault();
+                    var arr = new Array('media/61ASx7NHTWL._SX3000_.jpg', 'media/711Y9Al9RNL._SX3000_.jpg', 'media/61jovjd+f9L._SX3000_.jpg', 'media/61DUO0NqyyL._SX3000_.jpg')
+                    document.querySelector('#imggg').src = arr[i];
+                }
+            </script>
+            <div class="ancor_header">
+                <a href="sign.html">Today's Deals</a>
+                <a href="sign.html">Costumer Service</a>
+                <a href="sign.html">Registry</a>
+                <a href="sign.html">Gift Cards</a>
+                <a href="sign.html">Sell</a>
+            </div>
+            <div class="ancor_amazon">
+                <a href="sign.html">Amazon's Response to COVID-19</a>
+            </div>
+        </div>
+        <!-- End of header (nav bar) -->
+        <div class="content">
+            <a class="cont-img" href="">
+                <i onclick="img1(event)">></i>
+                <i onclick="img2(event)">
+                    < </i>
+                        <img id="imggg" src="media/61ASx7NHTWL._SX3000_.jpg">
+            </a>
+            <div class="subContent">
+                <div class="child1_sub shop-item">
+                    <h2 class="shop-item-title">Amazone USB</h2>
+                    <img class="shop-item-image" src="media/amazonbasics_520x520._SY304_CB442725065_.jpg" height="304px" width="273px">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$6.99</span>
+                        <a class="shop-item-button">Add To Card</a>
+                    </div>
+                </div>
+                <div class="child2_sub shop-item">
+                    <h2 class="shop-item-title">Amazon Oculus</h2>
+                    <img class="shop-item-image" src="media/Fuji_Dash_Oculus_1x._SY304_CB667158353_.jpg" height="304px" width="273px">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$60.99</span>
+                        <a class="shop-item-button">Add To Card</a>
+                    </div>
+                </div>
+                <div class="child3_sub shop-item">
+                    <h2 class="shop-item-title">Amazon PC</h2>
+                    <img class="shop-item-image" src="media/Fuji_Dash_PC_1x._SY304_CB431800965_.jpg" height="304px" width="273px">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$50.99</span>
+                        <a class="shop-item-button">Add To Card</a>
+                    </div>
+                </div>
+                <div class="child4_sub shop-item">
+                    <h2 class="shop-item-title">Amazon Smart Watch</h2>
+                    <img class="shop-item-image" src="media/Fuji_Dash_SmartWatch_1X._SY304_CB639922137_.jpg" height="304px" width="273px">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$18.99</span>
+                        <a class="shop-item-button">Add To Card</a>
+                    </div>
+                </div>
+                <div class="child5_sub shop-item">
+                    <h2 class="shop-item-title">Amazon Home Bedding</h2>
+                    <img class="shop-item-image" src="media/Fuji_Dash_HomeBedding_Single_Cat_1x._SY304_CB418596953_.jpg" height="304px" width="273px">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$20.99</span>
+                        <a class="shop-item-button">Add To Card</a>
+                    </div>
+                </div>
+                <div class="child6_sub shop-item">
+                    <h2 class="shop-item-title">Amazon Laptops</h2>
+                    <img class="shop-item-image" src="media/Fuji_Dash_Laptops_379x304_1X_en_US._SY304_CB418608471_.jpg" height="304px" width="273px">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$17.99</span>
+                        <a class="shop-item-button">Add To Card</a>
+                    </div>
+                </div>
+                <div class="child7_sub shop-item">
+                    <h2 class="shop-item-title">Amazon Women Fashion</h2>
+                    <img class="shop-item-image" src="media/Fuji_Dash_WomenFashion_Cardigans_Quad_Cat_1x._SY116_CB418608722_.jpg" height="304px" width="273px">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$66.99</span>
+                        <a class="shop-item-button">Add To Card</a>
+                    </div>
+                </div>
+                <div class="child8_sub shop-item">
+                    <h2 class="shop-item-title">For Fitness</h2>
+                    <img class="shop-item-image" src="media/Fuji_Dash_Fitness_1X._SY304_CB639748186_.jpg" height="304px" width="273px">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$120.99</span>
+                        <a class="shop-item-button">Add To Card</a>
+                    </div>
+                </div>
+            </div>
+            <section class=" content-section CardSection" id="down">
+                <h2 class="section-header">CART</h2>
+                <div class="cart-row">
+                    <span class="cart-item cart-header cart-column">ITEM</span>
+                    <span class="cart-price cart-header cart-column">PRICE</span>
+                    <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                </div>
+                <div class="cart-items">
+                </div>
+                <div class="cart-total">
+                    <strong class="cart-total-title">Total</strong>
+                    <span class="cart-total-price">$0</span>
+                </div>
+                <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+            </section>
+            <div class="fotter_sign">
+                <div class="sign_div">
+                    <hr>
+                    <p>See personalized recommendations</p>
+                    <a href="sign.html"><span><button>Sign in</button></span></a>
+                    <div>
+                        <a>New customer? </a>
+                        <a href="#">Start here.</a>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+            <div class="backToTop">
+                <a href="#top">Back to top</a>
+            </div>
+            <div class="downfott">
+                <div>
+                    <div class="d1">
+                        <h3>Get to Know Us</h3>
+                        <a href="#">
+                            <p>Careers</p>
+                        </a>
+                        <a href="#">
+                            <p> Blog</p>
+                        </a>
+                        <a href="#">
+                            <p> About Amazon</p>
+                        </a>
+                        <a href="#">
+                            <p> Investor Relations</p>
+                        </a>
+                        <a href="#">
+                            <p> Amazon Devices</p>
+                        </a>
+                    </div>
+                    <div class="d2"></div>
+                    <div class="d3">
+                        <h3>Make Money with Us</h3>
+                        <a href="#">
+                            <p>Sell products on Amazon</p>
+                        </a>
+                        <a href="#">
+                            <p>Sell on Amazon Business</p>
+                        </a>
+                        <a href="#">
+                            <p>Sell apps on Amazon</p>
+                        </a>
+                        <a href="#">
+                            <p>Become an Affiliate</p>
+                        </a>
+                        <a href="#">
+                            <p>Advertise Your Products</p>
+                        </a>
+                        <a href="#">
+                            <p>Self-Publish with Us</p>
+                        </a>
+                        <a href="#">
+                            <p>Host an Amazon Hub</p>
+                        </a>
+                        <a href="#">
+                            <p>›See More Make Money with Us</p>
+                        </a>
+                    </div>
+                    <div class="d4"></div>
+                    <div class="d5">
+                        <h3>Amazon Payment Products</h3>
+                        <a href="#">
+                            <p>Amazon Business Card</p>
+                        </a>
+                        <a href="#">
+                            <p>Shop with Points</p>
+                        </a>
+                        <a href="#">
+                            <p>Reload Your Balance</p>
+                        </a>
+                        <a href="#">
+                            <p>Amazon Currency Converter</p>
+                        </a>
+                    </div>
+                    <div class="d6"></div>
+                    <div class="d7">
+                        <h3> Let Us Help You</h3>
+                        <a href="#">
+                            <p>Amazon and COVID-19</p>
+                        </a>
+                        <a href="#">
+                            <p>Your Account</p>
+                        </a>
+                        <a href="#">
+                            <p>Your Orders</p>
+                        </a>
+                        <a href="#">
+                            <p>Shipping Rates & Policies</p>
+                        </a>
+                        <a href="#">
+                            <p>Returns & Replacements</p>
+                        </a>
+                        <a href="#">
+                            <p>Manage Your Content and Devices</p>
+                        </a>
+                        <a href="#">
+                            <p>Amazon Assistant</p>
+                        </a>
+                        <a href="#">
+                            <p>Help</p>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div><img src="media/Amazon Logo.png" width="140px" height="60px" style="margin-top: 20px;"></div>
+                    <div style="margin-left: 100px;">
+                        <button>English</button>
+                        <button>USD-U.S.Dollar</button>
+                        <button>united state</button>
+                    </div>
+                </div>
+            </div>
+            <div class="end">
+                <a href="#">conditions of Use</a>
+                <a href="#">Privacy Notice</a>
+                <a href="#">Interest Based Ads</a>
+                <a>© 1996-2021, Amazon.com, Inc. or its affiliates</a>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+
+</html>
